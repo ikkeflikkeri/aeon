@@ -1,0 +1,232 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Product Hunt Launch Draft — 2026-06-02"
+      },
+      "children": [
+        "tagline-stack",
+        "sep1",
+        "description-stack",
+        "sep2",
+        "status-section",
+        "sep3",
+        "action-alert"
+      ]
+    },
+    "tagline-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tagline-heading",
+        "tagline-text",
+        "tagline-count"
+      ]
+    },
+    "tagline-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Tagline",
+        "level": "h3"
+      }
+    },
+    "tagline-text": {
+      "type": "Text",
+      "props": {
+        "text": "The most autonomous agent framework — 180 skills, self-healing, zero babysitting",
+        "variant": "lead"
+      }
+    },
+    "tagline-count": {
+      "type": "Text",
+      "props": {
+        "text": "54/60 characters",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "description-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "description-heading",
+        "description-text",
+        "description-count"
+      ]
+    },
+    "description-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Description",
+        "level": "h3"
+      }
+    },
+    "description-text": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon runs on GitHub Actions, never asks for approval, and fixes its own failing skills automatically. It ships 180 pre-built skills with persistent file-based memory in your repo. 476 stars, 156 forks, zero infrastructure.",
+        "variant": "body"
+      }
+    },
+    "description-count": {
+      "type": "Text",
+      "props": {
+        "text": "255/260 characters",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "status-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sections-group",
+        "file-info",
+        "stats-group"
+      ]
+    },
+    "sections-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sections-label",
+        "sections-badges"
+      ]
+    },
+    "sections-label": {
+      "type": "Text",
+      "props": {
+        "text": "Sections written:",
+        "variant": "muted"
+      }
+    },
+    "sections-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-tagline",
+        "badge-description",
+        "badge-first-comment",
+        "badge-maker-comment",
+        "badge-bullets"
+      ]
+    },
+    "badge-tagline": {
+      "type": "Badge",
+      "props": {
+        "text": "tagline",
+        "variant": "outline"
+      }
+    },
+    "badge-description": {
+      "type": "Badge",
+      "props": {
+        "text": "description",
+        "variant": "outline"
+      }
+    },
+    "badge-first-comment": {
+      "type": "Badge",
+      "props": {
+        "text": "first-comment",
+        "variant": "outline"
+      }
+    },
+    "badge-maker-comment": {
+      "type": "Badge",
+      "props": {
+        "text": "maker-comment",
+        "variant": "outline"
+      }
+    },
+    "badge-bullets": {
+      "type": "Badge",
+      "props": {
+        "text": "bullets",
+        "variant": "outline"
+      }
+    },
+    "file-info": {
+      "type": "Text",
+      "props": {
+        "text": "File: articles/product-hunt-launch-2026-06-02.md",
+        "variant": "muted"
+      }
+    },
+    "stats-group": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat-stars",
+        "stat-forks",
+        "stat-skills"
+      ]
+    },
+    "stat-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "476"
+      }
+    },
+    "stat-forks": {
+      "type": "Stat",
+      "props": {
+        "label": "Forks",
+        "value": "156"
+      }
+    },
+    "stat-skills": {
+      "type": "Stat",
+      "props": {
+        "label": "Skills",
+        "value": "180"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "action-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Next Step",
+        "message": "Review the full pack and the checklist at the bottom of the file before scheduling the launch.",
+        "type": "info"
+      }
+    }
+  }
+}
