@@ -1,0 +1,643 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-06-02"
+      },
+      "children": [
+        "top_pick_section",
+        "sep1",
+        "aiml_section",
+        "sep2",
+        "devtools_section",
+        "sep3",
+        "apps_section",
+        "footer"
+      ]
+    },
+    "top_pick_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top_pick_heading",
+        "top_pick_content"
+      ]
+    },
+    "top_pick_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Pick",
+        "level": "h3"
+      }
+    },
+    "top_pick_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "top_pick_link",
+        "top_pick_desc"
+      ]
+    },
+    "top_pick_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "affaan-m/ECC",
+        "href": "https://github.com/affaan-m/ECC",
+        "source": "GitHub"
+      }
+    },
+    "top_pick_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Hottest trending project today with exceptional velocity — agent harness gaining 1500+ stars/day."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "aiml_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aiml_heading",
+        "aiml_repos"
+      ]
+    },
+    "aiml_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "aiml_repos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "repo_ecc",
+        "repo_headroom",
+        "repo_voxcpm",
+        "repo_supermemory"
+      ]
+    },
+    "repo_ecc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo_ecc_title",
+        "repo_ecc_stats",
+        "repo_ecc_desc"
+      ]
+    },
+    "repo_ecc_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "affaan-m/ECC",
+        "href": "https://github.com/affaan-m/ECC",
+        "source": "GitHub"
+      }
+    },
+    "repo_ecc_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "repo_ecc_stars",
+        "badge_ecc_lang",
+        "badge_ecc_status"
+      ]
+    },
+    "repo_ecc_stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 1597 today (203k total)",
+        "variant": "caption"
+      }
+    },
+    "badge_ecc_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "JavaScript"
+      }
+    },
+    "badge_ecc_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "repo_ecc_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Agent harness performance optimization with skills, instincts, memory, security capabilities"
+      }
+    },
+    "repo_headroom": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo_headroom_title",
+        "repo_headroom_stats",
+        "repo_headroom_desc"
+      ]
+    },
+    "repo_headroom_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "chopratejas/headroom",
+        "href": "https://github.com/chopratejas/headroom",
+        "source": "GitHub"
+      }
+    },
+    "repo_headroom_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "repo_headroom_stars",
+        "badge_headroom_lang",
+        "badge_headroom_status"
+      ]
+    },
+    "repo_headroom_stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 1266 today (6.2k total)",
+        "variant": "caption"
+      }
+    },
+    "badge_headroom_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "badge_headroom_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "repo_headroom_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Pre-LLM token compression for context windows — novel optimization approach"
+      }
+    },
+    "repo_voxcpm": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo_voxcpm_title",
+        "repo_voxcpm_stats",
+        "repo_voxcpm_desc"
+      ]
+    },
+    "repo_voxcpm_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "OpenBMB/VoxCPM",
+        "href": "https://github.com/OpenBMB/VoxCPM",
+        "source": "GitHub"
+      }
+    },
+    "repo_voxcpm_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "repo_voxcpm_stars",
+        "badge_voxcpm_lang",
+        "badge_voxcpm_status"
+      ]
+    },
+    "repo_voxcpm_stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 779 today (25k total)",
+        "variant": "caption"
+      }
+    },
+    "badge_voxcpm_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "badge_voxcpm_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "repo_voxcpm_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Tokenizer-free TTS with voice cloning — sidesteps traditional speech pipeline"
+      }
+    },
+    "repo_supermemory": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo_supermemory_title",
+        "repo_supermemory_stats",
+        "repo_supermemory_desc"
+      ]
+    },
+    "repo_supermemory_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "supermemoryai/supermemory",
+        "href": "https://github.com/supermemoryai/supermemory",
+        "source": "GitHub"
+      }
+    },
+    "repo_supermemory_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "repo_supermemory_stars",
+        "badge_supermemory_lang",
+        "badge_supermemory_status"
+      ]
+    },
+    "repo_supermemory_stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 677 today (24.6k total)",
+        "variant": "caption"
+      }
+    },
+    "badge_supermemory_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "badge_supermemory_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "repo_supermemory_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Vector memory engine built for AI workflows — infrastructure primitive"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "devtools_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools_heading",
+        "devtools_repos"
+      ]
+    },
+    "devtools_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "devtools_repos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "repo_markitdown",
+        "repo_scrapling"
+      ]
+    },
+    "repo_markitdown": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo_markitdown_title",
+        "repo_markitdown_stats",
+        "repo_markitdown_desc"
+      ]
+    },
+    "repo_markitdown_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "microsoft/markitdown",
+        "href": "https://github.com/microsoft/markitdown",
+        "source": "GitHub"
+      }
+    },
+    "repo_markitdown_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "repo_markitdown_stars",
+        "badge_markitdown_lang",
+        "badge_markitdown_status"
+      ]
+    },
+    "repo_markitdown_stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 3616 today (141k total)",
+        "variant": "caption"
+      }
+    },
+    "badge_markitdown_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "badge_markitdown_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "repo_markitdown_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Enterprise file-to-Markdown converter from Microsoft — massive adoption surge"
+      }
+    },
+    "repo_scrapling": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo_scrapling_title",
+        "repo_scrapling_stats",
+        "repo_scrapling_desc"
+      ]
+    },
+    "repo_scrapling_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "D4Vinci/Scrapling",
+        "href": "https://github.com/D4Vinci/Scrapling",
+        "source": "GitHub"
+      }
+    },
+    "repo_scrapling_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "repo_scrapling_stars",
+        "badge_scrapling_lang",
+        "badge_scrapling_status"
+      ]
+    },
+    "repo_scrapling_stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 1196 today (59k total)",
+        "variant": "caption"
+      }
+    },
+    "badge_scrapling_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "badge_scrapling_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "repo_scrapling_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Adaptive web scraper scaling from single requests to crawls — handles complexity"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "apps_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "apps_heading",
+        "apps_repos"
+      ]
+    },
+    "apps_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Apps",
+        "level": "h3"
+      }
+    },
+    "apps_repos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "repo_hermes",
+        "repo_vtuber"
+      ]
+    },
+    "repo_hermes": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo_hermes_title",
+        "repo_hermes_stats",
+        "repo_hermes_desc"
+      ]
+    },
+    "repo_hermes_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "nesquena/hermes-webui",
+        "href": "https://github.com/nesquena/hermes-webui",
+        "source": "GitHub"
+      }
+    },
+    "repo_hermes_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "repo_hermes_stars",
+        "badge_hermes_lang",
+        "badge_hermes_status"
+      ]
+    },
+    "repo_hermes_stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 1725 today (12.5k total)",
+        "variant": "caption"
+      }
+    },
+    "badge_hermes_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "badge_hermes_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "repo_hermes_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Browser/mobile UI for Hermes agents — lowers agent deployment friction"
+      }
+    },
+    "repo_vtuber": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo_vtuber_title",
+        "repo_vtuber_stats",
+        "repo_vtuber_desc"
+      ]
+    },
+    "repo_vtuber_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Open-LLM-VTuber/Open-LLM-VTuber",
+        "href": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber",
+        "source": "GitHub"
+      }
+    },
+    "repo_vtuber_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "repo_vtuber_stars",
+        "badge_vtuber_lang",
+        "badge_vtuber_status"
+      ]
+    },
+    "repo_vtuber_stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 65 today (8.3k total)",
+        "variant": "caption"
+      }
+    },
+    "badge_vtuber_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "badge_vtuber_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "repo_vtuber_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Voice-controlled LLM avatar with interruption — hands-free interaction"
+      }
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 8/11",
+        "variant": "muted"
+      }
+    }
+  }
+}
