@@ -1,0 +1,23 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "vercel-projects"
+      },
+      "children": [
+        "alert"
+      ]
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "VERCEL_PROJECTS_NO_TOKEN",
+        "message": "set VERCEL_TOKEN secret",
+        "type": "error"
+      }
+    }
+  }
+}
