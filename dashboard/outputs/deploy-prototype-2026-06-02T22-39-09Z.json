@@ -1,0 +1,59 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "deploy-prototype"
+      },
+      "children": [
+        "status-stack"
+      ]
+    },
+    "status-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert",
+        "details"
+      ]
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Deployment Blocked",
+        "message": "Operator action needed to deploy to Vercel"
+      }
+    },
+    "details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "built-line",
+        "missing-line"
+      ]
+    },
+    "built-line": {
+      "type": "Text",
+      "props": {
+        "text": "Built: aeon-prototype-security-audit",
+        "variant": "body"
+      }
+    },
+    "missing-line": {
+      "type": "Text",
+      "props": {
+        "text": "Missing: scripts/postprocess-deploy.sh",
+        "variant": "body"
+      }
+    }
+  }
+}

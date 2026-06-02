@@ -1,3 +1,4 @@
 date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-06-02,vercel-projects,claude-haiku-4-5-20251001,100,3164,601889,15980
 2026-06-02,deploy-prototype,claude-haiku-4-5-20251001,163,16456,1326338,44987
+2026-06-02,deploy-prototype,claude-haiku-4-5-20251001,114,5366,727964,20770
