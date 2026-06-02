@@ -1,0 +1,31 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "deploy-prototype"
+      },
+      "children": [
+        "build_section",
+        "warning_section"
+      ]
+    },
+    "build_section": {
+      "type": "Text",
+      "props": {
+        "text": "built: aeon-prototype-security-audit — interactive GitHub workflow security audit dashboard.",
+        "variant": "body"
+      }
+    },
+    "warning_section": {
+      "type": "Alert",
+      "props": {
+        "title": "Deployment Warning",
+        "message": "scripts/postprocess-deploy.sh not found — deploy will not run automatically",
+        "type": "warning"
+      }
+    }
+  }
+}
